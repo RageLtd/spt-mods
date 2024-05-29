@@ -1,0 +1,34 @@
+# Data directories
+Aki_Data
+EscapeFromTarkov_Data
+fika_client
+Logs
+MonoBleedingEdge
+NLog
+SPT
+
+# Subdirectories we don't want to sync
+BepInEx/cache
+BepInEx/core
+BepInEx/patchers
+BepInEx/*.log
+user/cache
+user/launcher
+user/logs
+user/profiles
+user/sptsettings
+
+# QuestingBots has its own logs that we don't need to sync
+user/mods/DanW-SPTQuestingBots/log
+
+# Compiled JS files and their maps
+*.js
+*.js.map
+
+# Everything in the root folder
+/*.exe
+/*.ini
+/*.txt
+/*.log
+/*.dll
+/*.dxvk-cache
