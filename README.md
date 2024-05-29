@@ -25,4 +25,5 @@ git pull
 - Me! I wrote the scripts.
 - MerijnHendriks for making SPT in the first place
 - The SPT maintainer team
+- The Fika development team
 - CWX, DraxiaXYZ, Fontaine, Solarint, Borkel, Amand2Mello, Terkioz, DanW, notGreg, Wara, Tyfon, dvize, ACOG4Life, acidphantasm, dirtbikercj, Kiki, mattdokn, hooshu, MusicManiac, RaiRaiTheRaichu, GhostFenix, Square, and more for their wonderful mods!
