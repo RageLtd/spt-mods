@@ -19,24 +19,22 @@ else
 fi
 
 echo "Updating SPT"
-# Ask for the version to download
-echo "Enter the version to download (e.g. 1.0.0):"
-read version -r
-echo "Version $version selected"
+
+url="https://dev.sp-tarkov.com/SPT/Stable-releases/releases/latest/"
 
 # Get the download link for the version
-download_link=$(lynx -dump -listonly -nonumbers "https://dev.sp-tarkov.com/SPT/Stable-releases/releases/tag/$version" | grep "download/$version")
+download_link=$(lynx -dump -listonly -nonumbers $url | grep ".*spt-releases\.modd\.in.*7z")
 
 # Download the file
-wget -O spt.zip "$download_link"
+wget -O spt.7z "$download_link"
 
 # Unzip the file, overwriting existing files
-7z x spt.zip -aoa
+7z x spt.7z -aoa
 
 echo "SPT Updated, hopefully your Tarky version is compatible!"
 
 # clean up download
-rm spt.zip
+rm spt.7z
 
 # Update Mods
 git pull git@github.com:RageLtd/spt-mods.git main
