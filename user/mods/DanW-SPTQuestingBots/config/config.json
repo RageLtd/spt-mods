@@ -1,7 +1,7 @@
 {
 	"enabled": true,
 	"debug": {
-		"enabled": false,
+		"enabled": true,
 		"scav_cooldown_time": 1500,
 		"full_length_scav_raids": false,
 		"free_labs_access": false,
@@ -37,7 +37,7 @@
 			"follower_break_time": 10,
 			"max_not_able_bodied_time": 120
 		},
-		"unlocking_doors": {
+		"unlocking_doors" : {
 			"enabled": {
 				"scav": false,
 				"pscav": false,
@@ -63,7 +63,7 @@
 		},
 		"bot_search_distances": {
 			"objective_reached_ideal": 0.5,
-			"objective_reached_navmesh_path_error": 20,
+			"objective_reached_navmesh_path_error": 2,
 			"max_navmesh_path_error": 10
 		},
 		"bot_pathing": {
@@ -122,7 +122,8 @@
 				"min_time_between_looting_events": 80,
 				"max_time_to_start_looting": 2,
 				"max_loot_scan_time": 4,
-				"max_distance_from_boss": 50
+				"max_distance_from_boss": 50,
+				"max_sain_version_for_resetting_decisions": "2.2.1.99"
 			},
 			"max_follower_distance": {
 				"max_wait_time": 5,
@@ -153,11 +154,11 @@
 				"min": 0.1,
 				"max": 0.5
 			},
-			"sharp_path_corners": {
+			"sharp_path_corners" : {
 				"distance": 2,
 				"angle": 45
 			},
-			"approaching_closed_doors": {
+			"approaching_closed_doors" : {
 				"distance": 3,
 				"angle": 60
 			}
@@ -185,11 +186,7 @@
 			},
 			"exfil_direction_max_angle": 90,
 			"exfil_reached_min_fraction": 0.2,
-			"blacklisted_boss_hunter_bosses": [
-				"gifter",
-				"arenaFighterEvent",
-				"shooterBTR"
-			],
+			"blacklisted_boss_hunter_bosses": [ "gifter", "arenaFighterEvent", "shooterBTR" ],
 			"airdrop_bot_interest_time": 420,
 			"eft_quests": {
 				"desirability": 60,
@@ -197,30 +194,12 @@
 				"chance_of_having_keys": 50,
 				"match_looting_behavior_distance": 5,
 				"level_range": [
-					[
-						0,
-						99
-					],
-					[
-						1,
-						8
-					],
-					[
-						10,
-						15
-					],
-					[
-						20,
-						25
-					],
-					[
-						30,
-						30
-					],
-					[
-						40,
-						40
-					]
+					[0, 99],
+					[1, 8],
+					[10, 15],
+					[20, 25],
+					[30, 30],
+					[40, 40]
 				]
 			},
 			"spawn_rush": {
@@ -250,27 +229,37 @@
 	},
 	"bot_spawns": {
 		"enabled": true,
-		"blacklisted_pmc_bot_brains": [
-			"bossKilla",
-			"bossTagilla",
-			"exUsec",
-			"followerGluharAssault",
-			"followerGluharProtect",
-			"crazyAssaultEvent",
-			"bossKnight"
-		],
+		"blacklisted_pmc_bot_brains": [ "bossKilla", "bossTagilla", "exUsec", "followerGluharAssault", "followerGluharProtect", "crazyAssaultEvent", "bossKnight" ],
 		"spawn_retry_time": 10,
 		"delay_game_start_until_bot_gen_finishes": true,
-		"spawn_initial_bosses_first": true,
-		"advanced_eft_bot_count_management": true,
-		"bot_cap_adjustments": {
+		"spawn_initial_bosses_first": false,
+		"advanced_eft_bot_count_management": {
 			"enabled": true,
+			"use_EFT_bot_caps": true,
+			"only_decrease_bot_caps": true,
+			"bot_cap_adjustments": {
+				"default": 0,
+				"factory4_day": 13,
+				"factory4_night": 0,
+				"bigmap": 0,
+				"woods": 0,
+				"shoreline": 0,
+				"lighthouse": 4,
+				"rezervbase": 0,
+				"interchange": 0,
+				"laboratory": 0,
+				"tarkovstreets": -4,
+				"sandbox": 0
+			}
+		},
+		"bot_cap_adjustments" : {
+			"enabled": false,
 			"min_other_bots_allowed_to_spawn": 2,
 			"add_max_players_to_bot_cap": true,
 			"max_additional_bots": 5,
 			"max_total_bots": 26
 		},
-		"limit_initial_boss_spawns": {
+		"limit_initial_boss_spawns" : {
 			"enabled": true,
 			"disable_rogue_delay": true,
 			"max_initial_bosses": 14,
@@ -290,122 +279,67 @@
 			"tarkovstreets": 8,
 			"sandbox": 7
 		},
-		"pmcs": {
+		"pmcs" : {
 			"enabled": true,
+			"min_raid_time_remaining": 180,
 			"min_distance_from_players_initial": 25,
 			"min_distance_from_players_during_raid": 75,
 			"min_distance_from_players_during_raid_factory": 50,
 			"fraction_of_max_players_vs_raidET": [
-				[
-					0,
-					0.2
-				],
-				[
-					0.2,
-					0.2
-				],
-				[
-					0.6,
-					0.5
-				],
-				[
-					0.8,
-					0.7
-				],
-				[
-					0.9,
-					0.9
-				],
-				[
-					0.95,
-					1
-				],
-				[
-					1,
-					1
-				]
+				[0, 0.2],
+				[0.2, 0.2],
+				[0.6, 0.5],
+				[0.8, 0.7],
+				[0.9, 0.9],
+				[0.95, 1],
+				[1, 1]
 			],
-			"bots_per_group_distribution": [
-				[
-					0.40,
-					1
-				],
-				[
-					0.80,
-					2
-				],
-				[
-					0.92,
-					3
-				],
-				[
-					0.97,
-					4
-				],
-				[
-					1.00,
-					5
-				]
+			"bots_per_group_distribution" : [
+				[0.40, 1],
+				[0.80, 2],
+				[0.92, 3],
+				[0.97, 4],
+				[1.00, 5]
+			],
+			"bot_difficulty_as_online" : [
+				[0.00, 0],
+				[0.50, 1],
+				[0.90, 2],
+				[1.00, 3]
 			]
 		},
 		"player_scavs": {
 			"enabled": true,
+			"min_raid_time_remaining": 180,
 			"min_distance_from_players_initial": 25,
 			"min_distance_from_players_during_raid": 75,
 			"min_distance_from_players_during_raid_factory": 35,
 			"fraction_of_max_players": 1.5,
 			"time_randomness": 10,
-			"bots_per_group_distribution": [
-				[
-					0.80,
-					1
-				],
-				[
-					0.90,
-					2
-				],
-				[
-					0.95,
-					3
-				],
-				[
-					0.98,
-					4
-				],
-				[
-					1.00,
-					5
-				]
+			"bots_per_group_distribution" : [
+				[0.80, 1],
+				[0.90, 2],
+				[0.95, 3],
+				[0.98, 4],
+				[1.00, 5]
+			],
+			"bot_difficulty_as_online" : [
+				[0.00, 0],
+				[0.60, 1],
+				[0.95, 2],
+				[1.00, 3]
 			]
 		}
 	},
-	"adjust_pscav_chance": {
+	"adjust_pscav_chance" : {
 		"enabled": true,
-		"chance_vs_time_remaining_fraction": [
-			[
-				0,
-				50
-			],
-			[
-				0.3,
-				50
-			],
-			[
-				0.5,
-				20
-			],
-			[
-				0.8,
-				10
-			],
-			[
-				0.9,
-				0
-			],
-			[
-				1,
-				0
-			]
+		"chance_vs_time_remaining_fraction" : [
+			[0, 50],
+			[0.3, 50],
+			[0.5, 20],
+			[0.8, 10],
+			[0.9, 0],
+			[1, 0]
 		]
 	}
 }

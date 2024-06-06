@@ -657,9 +657,9 @@
   },
   "Bots": {
     "AIChance": {
-      "Kolontay": 30,
-      "Kaban": 30,
-      "TagillaNight": 30,
+      "Kolontay": 35,
+      "Kaban": 35,
+      "TagillaNight": 35,
       "TrioLighthouse": 30,
       "TrioShoreline": 30,
       "TrioWoods": 30,
@@ -667,17 +667,17 @@
       "CultistCustoms": 15,
       "CultistShoreline": 20,
       "Trio": 30,
-      "RaiderLab": 40,
-      "RaiderReserve": 35,
+      "RaiderLab": 50,
+      "RaiderReserve": 50,
       "CultistFactory": 10,
       "CultistWoods": 20,
       "Rogue": 65,
-      "Tagilla": 30,
-      "Shturman": 30,
-      "Glukhar": 30,
-      "Sanitar": 30,
-      "Reshala": 30,
-      "Killa": 30
+      "Tagilla": 35,
+      "Shturman": 35,
+      "Glukhar": 35,
+      "Sanitar": 35,
+      "Reshala": 35,
+      "Killa": 35
     },
     "ArmorDurab": {
       "PMCMax": 100,
@@ -711,7 +711,7 @@
       "RogueMin": 80,
       "RaiderMin": 80
     },
-    "EnableBots": false
+    "EnableBots": true
   },
   "PMC": {
     "NameOverride": false,
