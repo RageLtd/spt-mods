@@ -1,5 +1,25 @@
 # Data directories
-Aki_Data
+Aki_Data/Launcher/Image_Cache
+Aki_Data/Launcher/Locales
+Aki_Data/Launcher/Patches
+Aki_Data/Server/database/images
+Aki_Data/Server/database/checks.dat
+Aki_Data/Server/database/bots
+Aki_Data/Server/database/hideout
+Aki_Data/Server/database/locales/global
+Aki_Data/Server/database/locales/menu
+Aki_Data/Server/database/locales/*.json
+Aki_Data/Server/database/locales/server/*
+Aki_Data/Server/database/locations
+Aki_Data/Server/database/loot
+Aki_Data/Server/database/match
+Aki_Data/Server/database/templates/*
+Aki_Data/Server/database/*.json
+Aki_Data/Server/database/*.dat
+Aki_Data/Server/database/traders
+Aki_Data/Server/configs
+Aki_Data/Server/images
+Aki_Data/Server/@pnpm
 EscapeFromTarkov_Data
 fika_client
 Logs
@@ -33,3 +53,7 @@ user/mods/DanW-SPTQuestingBots/log
 /*.log
 /*.dll
 /*.dxvk-cache
+
+# Don't ignore the profiles.json to allow for custom profile
+!Aki_Data/Server/database/templates/profiles.json
+!Aki_Data/Server/database/locales/server/en.json
