@@ -616,5 +616,6 @@
 	"release-summary": "",
 	"launcher-profile-unheard": "launcher-profile-unheard",
 	"launcher-profile-tournament": "launcher-profile-tournament",
-	"fixer-clothing_item_found": "fixer-clothing_item_found"
+	"fixer-clothing_item_found": "fixer-clothing_item_found",
+	"bot-bot_preset_count_value_missing": "bot-bot_preset_count_value_missing"
 }
