@@ -1,0 +1,107 @@
+{
+	"manifest": [
+		{
+			"key": "weapons/qhb/textures/client_assets.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "weapons/qhb/client_assets.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"weapons/qhb/textures/client_assets.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "weapons/qhb/weapon_colt_m4a1_556x45_container.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"weapons/qhb/textures/client_assets.bundle",
+				"assets/systems/effects/muzzleflash/muzzleflash.bundle",
+				"shaders",
+				"assets/content/weapons/animations/spirit_animations.bundle",
+				"assets/content/weapons/animations/simple_animations.bundle",
+				"assets/content/weapons/weapon_root_anim_fix.bundle",
+				"assets/content/weapons/animations/animations.bundle",
+				"assets/content/weapons/additional_hands/client_assets.bundle",
+				"assets/content/weapons/m4a1/client_assets.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/weapons/tx15/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle",
+				"weapons/qhb/client_assets.bundle",
+				"assets/content/audio/banks/m4a1.bundle",
+				"assets/content/audio/weapons/ak74.bundle",
+				"assets/content/audio/weapons/generic",
+				"assets/content/weapons/m4a1/weapon_colt_m4a1_556x45.animatorcontrollerdata.bundle",
+				"assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+				"assets/systems/effects/heathaze/defaultheathaze.bundle"
+			]
+		},
+		{
+			"key": "items/mods/handguards/handguard_qhb_q_mlok_12in.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "items/mods/handguards/handguard_qhb_q_mlok_6in.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "items/mods/barrels/barrel_qhb_190mm_300blk.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"weapons/qhb/textures/client_assets.bundle"
+			]
+		},
+		{
+			"key": "items/mods/barrels/barrel_qhb_260mm_300blk.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"weapons/qhb/textures/client_assets.bundle"
+			]
+		},
+		{
+			"key": "items/mods/receivers/receiver_qhb_standard.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "items/mods/stocks/stock_qhb_standard.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "items/mods/muzzles/muzzle_q_cherry_bomb_300blk.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"weapons/qhb/textures/client_assets.bundle"
+			]
+		},
+		{
+			"key": "items/mods/suppressors/suppressor_qhb_standard_300blk.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		}
+	]
+}

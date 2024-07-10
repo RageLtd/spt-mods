@@ -1,0 +1,296 @@
+{
+	   "manifest": [
+
+        {
+            "key": "assets/virtus_weap/virtus_container.bundle",
+            "dependencyKeys": [
+
+              "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+              "assets/content/weapons/weapon_root_anim_fix.bundle",
+              "assets/content/weapons/additional_hands/client_assets.bundle",
+              "assets/content/audio/weapons/generic",
+              "assets/virtus_weap/virtus_sound.bundle",
+              "assets/virtus_weap/virtus_anim.bundle",
+              "assets/virtus_weap/virtus_textures.bundle",
+              "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+              "assets/systems/effects/heathaze/defaultheathaze.bundle"
+            ]
+          },
+        {
+            "key": "assets/virtus_weap/virtus_textures.bundle",
+            "dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/virtus_weap/virtus_sound.bundle",
+            "dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/virtus_weap/virtus_anim.bundle",
+            "dependencyKeys": [
+                "assets/virtus_weap/virtus_textures.bundle",
+                "shaders",
+                "cubemaps"
+            ]
+        },
+    {
+        "key": "assets/virtus_upper.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/virtus_weap/virtus_textures.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_charge.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/sch_charge.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_115.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus9.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_6-75.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_16.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+
+    {
+        "key": "assets/virtus_hg_sd10.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg_sd16.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg_sur.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_stock_tele.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_stock_mini.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_stock_visor.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_stock_pt1.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_stock_pt3.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/mcx_tube.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg8.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg11.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_grip.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg12.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/virtus_hg16.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/vgtl.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/vgts.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/vmihgl.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/vmihgs.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/vmihg11.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },  
+    {
+        "key": "assets/l5awm_30.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/l5awm_30t.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/l5awm_30bk.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },    
+    {
+        "key": "assets/vmihgm.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/muzzle556.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    },
+    {
+        "key": "assets/muzzle762.bundle",
+        "dependencyKeys": [
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "shaders",
+            "cubemaps"
+        ]
+    }
+       ]
+}

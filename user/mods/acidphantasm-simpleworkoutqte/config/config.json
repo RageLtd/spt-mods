@@ -1,0 +1,7 @@
+{
+    "easyMode": true,
+    "qteSpeed": 0.5,
+    "qteSize": 2,
+    "preventVeryDifficultQTE": true,
+    "debugLogging": false
+}

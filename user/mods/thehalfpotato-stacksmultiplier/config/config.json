@@ -1,0 +1,6 @@
+{
+    "debug": false,
+    "ammoStackMult": 2,
+    "onlyAmmo": true,
+    "moneyStackMult": 2
+}

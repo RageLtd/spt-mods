@@ -1,0 +1,59 @@
+# Data directories
+SPT_Data/Launcher
+SPT_Data/Launcher/Image_Cache
+SPT_Data/Launcher/Locales
+SPT_Data/Launcher/Patches
+SPT_Data/Server/database/images
+SPT_Data/Server/checks.dat
+SPT_Data/Server/database/bots
+SPT_Data/Server/database/hideout
+SPT_Data/Server/database/locales/global
+SPT_Data/Server/database/locales/menu
+SPT_Data/Server/database/locales/*.json
+SPT_Data/Server/database/locales/server/*
+SPT_Data/Server/database/locations
+SPT_Data/Server/database/loot
+SPT_Data/Server/database/match
+SPT_Data/Server/database/templates/*
+SPT_Data/Server/database/*.json
+SPT_Data/Server/database/*.dat
+SPT_Data/Server/database/traders
+SPT_Data/Server/configs
+SPT_Data/Server/images
+SPT_Data/Server/@pnpm
+EscapeFromTarkov_Data
+Logs
+MonoBleedingEdge
+NLog
+
+# Subdirectories we don't want to sync
+BepInEx/cache
+BepInEx/core
+BepInEx/patchers
+BepInEx/**/*.log
+BepInEx/plugins/DanW-SPTQuestingBots/log
+user/cache
+user/launcher
+user/logs
+user/profiles
+user/sptappdata
+user/sptsettings
+
+# QuestingBots has its own logs that we don't need to sync
+user/mods/DanW-SPTQuestingBots/log
+
+# Compiled JS files and their maps
+*.js
+*.js.map
+
+# Everything in the root folder
+/*.exe
+/*.ini
+/*.txt
+/*.log
+/*.dll
+/*.dxvk-cache
+
+# Don't ignore the profiles.json to allow for custom profile
+!SPT_Data/Server/database/templates/profiles.json
+!SPT_Data/Server/database/locales/server/en.json
