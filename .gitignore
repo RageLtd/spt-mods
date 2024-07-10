@@ -26,6 +26,9 @@ Logs
 MonoBleedingEdge
 NLog
 
+# Don't actually cache the prices from live flea prices
+user/mods/DrakiaXYZ-LiveFleaPrices/config/prices.json
+
 # Subdirectories we don't want to sync
 BepInEx/cache
 BepInEx/core
