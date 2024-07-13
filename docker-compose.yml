@@ -1,0 +1,12 @@
+services:
+  fika:
+    build:
+      context: Docker
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/opt/server:Z
+    ports:
+      - "6969:6969"
+    environment:
+      - HEADLESS=true
+    restart: unless-stopped

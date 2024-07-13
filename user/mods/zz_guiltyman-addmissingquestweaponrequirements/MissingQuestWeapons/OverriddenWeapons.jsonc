@@ -1,0 +1,268 @@
+{
+    ////////////////////////////////////
+    // #### Weapon Types ####
+    // AssaultCarbine
+    // AssaultRifle-
+    // MachineGun
+    // GrenadeLauncher
+    // MarksmanRifle
+    // Pistol
+    // Revolver
+    // Shotgun
+    // SniperRifle
+    // Smg
+    // ThrowWeap
+    // Knife
+    ////////////////////////////////////
+    // #### Restrictive Weapon Types ####
+    // BoltActionSniperRifle (SniperRifle)
+    // PumpActionShotgun (Shotgun)
+    // Revolver (Pistol)
+    ////////////////////////////////////
+    // no more needed since this can be done using the CustomCategories, but its already working so no need to change it
+    "Override": {
+        "64748cb8de82c85eaf0a273a": "PumpActionShotgun,Shotgun", // MP-43 12ga sawed-off double-barrel shotgun
+        "5580223e4bdc2d1c128b457f": "PumpActionShotgun,Shotgun", // MP-43-1C 12ga double-barrel shotgun
+        "60db29ce99594040e04c4a27": "Shotgun,Revolver", // MTs-255-12 12ga shotgun
+        "57c44b372459772d2b39b8ce": "AssaultCarbine,AssaultRifle", // AS VAL 9x39 special assault rifle
+        "639af924d0446708ee62294e": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 grenade launcher
+        "639c3fbbd0446708ee622ee9": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 grenade launcher
+        "5e81ebcd8e146c7080625e15": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 40mm grenade launcher
+        "5d52cc5ba4b9367408500062": "GrenadeLauncher", // AGS-30 30x29mm automatic grenade launcher
+        "6275303a9f372d6ea97f9ec7": "GrenadeLauncher", // Milkor M32A1 MSGL 40mm grenade launcher
+        "620109578d82e67e7911abf2": "GrenadeLauncher,Pistol", // ZiD SP-81 26x75 signal pistol
+        "6657bc8faeddd6b0a9b40224": "MarksmanRifle", // SVD 7.62x54R Sniper Rifle
+        "6657bd4d3a4d6e7c33fd2fdc": "MarksmanRifle", // SVD 7.62x54R Sniper Rifle
+        "61f7c9e189e6fb1a5e3ea78d": "BoltActionSniperRifle,SniperRifle,Shotgun,PumpActionShotgun", // MP-18 7.62x54R single-shot rifle (god gives his toughest types to his strongest weapons)
+        "0101_BLACK_LINES_M4A1": "AssaultCarbine,AssaultRifle",
+        "0102_BLACK_LINES_AK103": "AssaultRifle",
+        "0103_BLACK_RSASS": "MarksmanRifle",
+        "0104_BLACK_LINES_MK47": "AssaultCarbine,AssaultRifle",
+        "0105_BLACK_AUG": "AssaultCarbine,AssaultRifle",
+        "0106_FLAMING_M4A1": "AssaultCarbine,AssaultRifle",
+        "0107_PRISTINE_M4A1": "AssaultCarbine,AssaultRifle",
+        "0108_BLACK_SPEAR": "AssaultCarbine,AssaultRifle",
+        "gc_1_MDR_556": "AssaultCarbine,AssaultRifle",
+        "gc_2_MDR_762": "AssaultCarbine,AssaultRifle",
+        "gc_3_M4A1_green": "AssaultCarbine,AssaultRifle",
+        "SC_0101_MCX_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0102_M4A1_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0103_AK101_SAND": "AssaultRifle",
+        "SC_0104_AK102_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0105_AK103_SAND": "AssaultRifle",
+        "SC_0106_AK104_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0107_AK105_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0108_HK416_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_0109_G36_SAND": "AssaultCarbine,AssaultRifle",
+        "SC_01010_M4A1_SAND_2": "AssaultCarbine,AssaultRifle",
+        "wc_010421_WHITE_M4A1": "AssaultCarbine,AssaultRifle",
+        "weapon_tactikal_gladius": "Knife",
+        "WEAPON_AR-54_SIUL": "MarksmanRifle",
+        "weapon_arblackout_300blk": "AssaultCarbine,AssaultRifle",
+        "Atlas ATL-15 .300 BLK Precision Rifle": "AssaultCarbine,AssaultRifle,MarksmanRifle",
+        "Atlas ATL-15 5.56x45 Precision Rifle": "AssaultCarbine,AssaultRifle,MarksmanRifle",
+        "Knight's Armament Company SR-25 7.62x51 FDE": "MarksmanRifle",
+        "weapon_qhb_300blk": "AssaultCarbine,AssaultRifle",
+        "weapon_93_raffica": "Pistol,Smg",
+        "weapon_striker_12": "Shotgun",
+        "weapon_imi_uzi": "Smg",
+        "d672109946fe88b803449054": "AssaultRifle", // AK-101 .300 BLK
+        "939c742f7dad852286188029": "AssaultCarbine,AssaultRifle", // AKS-74UB .300 BLK
+        "627c4fe34b0a558e8a3642a1": "AssaultCarbine,AssaultRifle", // AKS-74UN .300 BLK
+        "ed05294ed53c0400ae0e8a55": "AssaultCarbine,AssaultRifle", // AKS-74U .300 BLK
+        "ffc95b9d143f52202a311820": "AssaultCarbine,AssaultRifle", // AK-102 .300 BLK
+        "93bcdfda236122e67c098847": "Pistol,AssaultRifle", // Century Arms Draco 7.62x39mm
+        "57f28a7ffb22e277b0234219": "AssaultRifle", // Saiga SGL31 5.45x39mm
+        "e895575bcd1fa1de36d301b6": "AssaultRifle", // Saiga MK Ver. 030 5.45x39mm
+        "3dc691f607ffed3228bf6ca2": "AssaultRifle", // AK-15 7.62x39mm
+        "4b81488c78c8a8ac7d37f9b9": "AssaultCarbine,AssaultRifle", // M4A1 .300 BLK
+        "52ce1b65b13e1035808c4fd2": "AssaultRifle", // Mk47 5.45x39mm
+        "96f5c38a676e11e13544dfba": "AssaultRifle", // Mk47 9x39mm
+        "8d59d8b10a4c2e85b871c317": "AssaultRifle", // MCX Spear .308
+        "weapon_JAK12_12ga_MASSIVESOFT": "Shotgun", // Pettan JAK12 port
+        "weapon_AA12_12ga_MASSIVESOFT": "Shotgun", // Pettan JAK12 alternative, for those who renamed it.
+        "023023A12A12A12000000000": "Shotgun", // Massivesoft JAK12
+        "weapon_M14_762x51_MASSIVESOFT": "AssaultRifle,MarksmanRifle", // Pettan M14 port
+        "020020AA14AA140000000000": "AssaultRifle,MarksmanRifle", // Massivesoft M14
+        "weapon_M1911CE_1143x23_MASSIVESOFT": "Pistol", // Pettan M1911CE port
+        "0210211911CE000000000000": "Pistol", // Massivesoft M1911CE
+        "weapon_QBZ03_std_MASSIVESOFT": "AssaultRifle,AssaultCarbine", // Pettan QBZ03 port
+        "020020BBA03BBA0300000000": "AssaultRifle,AssaultCarbine", // Massivesoft QBZ03
+        "020020BBA97BBA9700000000": "AssaultRifle,AssaultCarbine", // Massivesoft QBZ97
+        "020020195195F95556000000": "AssaultRifle,AssaultCarbine", // Massivesoft Tavor X95
+        "020020195195F95545000000": "AssaultRifle,AssaultCarbine", // Massivesoft Tavor X95-R
+        "weapon_TYPE64_762x25_MASSIVESOFT": "Smg", // Pettan Type 64 port
+        "022022C64C64000000000000": "Smg", // Massivesoft Type 64
+        "weapon_v308_762x51_MASSIVESOFT": "AssaultRifle", // Pettan v308 port
+        "020020308308000000000000": "AssaultRifle", // Massivesoft v308
+        "MIRA_weapon_ai_awm_338lm": "BoltActionSniperRifle,SniperRifle",
+        "MIRA_weapon_colt_m16a4_556x45": "AssaultRifle",
+        "MIRA_weapon_izhmash_ak_762x39_nodove": "AssaultRifle",
+        "MIRA_weapon_izhmash_ak_762x39": "AssaultRifle",
+        "MIRA_weapon_izhmash_rpk74n_545x39": "AssaultRifle,MachineGun",
+        "Asset Store knife": "Knife",
+        "66015072e9f84d5680039678": "Pistol", // Plastic toy gun, good luck with that
+        "663fe6eb47e8baf835124234": "Pistol", // Desert Eagle .357 Magnum
+        "6671ebcdd32bd95eb398e920": "AssaultRifle,AssaultCarbine", // Ak5C 5.56x45mm
+        "667b693466834848ed0c05a6": "BoltActionSniperRifle,SniperRifle", // CheyTac M200 Intervention .408 CheyTac
+        "6661012d16fbd2fb75408f87": "Pistol", // CZ-75 9x19mm
+        "664a5b945636ce820472f225": "AssaultRifle,MarksmanRifle", // HK417 7.62x51mm
+        "663cf1da2496a8e7b0b71759": "Pistol", // EDCX9 9x19mm
+        "665fe0e865683281eb8e7ed6": "Pistol", // DS Prodigy 9x19mm
+        "664274a4d2e5fe0439d545a6": "AssaultRifle,AssaultCarbine", // HK G3 7.62x51mm
+        "664274afd9fe3879695d90e9": "AssaultRifle,MachineGun", // HK G3 11E 7.62x51mm
+        "czscorpion": "Smg", // CZ Scorpion EVO 3 9x19mm
+        "czscorpiongrey": "Smg", // CZ Scorpion Evo 3 Tron Edition 9x19mm
+        "6632aab0b450b045b2160db9": "AssaultRifle,AssaultCarbine", // L85A2 5.56x45mm
+        "6632b91ca1a7a5564dad34ac": "AssaultRifle,AssaultCarbine", // FAMAS F1 5.56x45mm
+        "sh-pikalo": "Pistol,Smg", // Custom full-auto PL-15 9x19mm
+        "sh-Saiga": "AssaultCarbine,AssaultRifle", // Custom full-auto Saiga 12ga
+        "sh-SaigaSKS": "Shotgun", // Custom full-auto SKS 12ga
+        "sh-SKS": "AssaultCarbine,AssaultRifle", // Custom full-auto SKS 7.62x39mm
+        "shSVastWeapon": "SniperRifle", // Custom full-auto SV-98 7.62x54R
+        "Beowulf": "AssaultRifle",
+        "C14GN": "BoltActionSniperRifle",
+        "CZ-61": "Smg", // CZ-61 7.65x17mm
+        "Desert Eagle": "Pistol", // Desert Eagle .50 AE
+        "M110": "MarksmanRifle", // M110 7.62x51mm
+        "M16A1": "AssaultRifle", // M16A1 5.56x45mm
+        "M4A1 FDE": "AssaultCarbine,AssaultRifle", // M4A1 5.56x45mm FDE
+        "M76": "MarksmanRifle", // M76 7.92x57mm
+        "MK12 DIY": "AssaultCarbine", // MK12 5.56x45mm
+        "MK12 DIY0": "AssaultCarbine", // MK12 5.56x45mm (alternate)
+        "QBU-88": "AssaultRifle,AssaultCarbine", // QBU-88 5.8x42mm
+        "QBZ-03": "AssaultRifle,AssaultCarbine", // QBZ-03 5.8x42mm
+        "QBZ-191": "AssaultRifle,AssaultCarbine", // QBZ-191 5.8x42mm
+        "QBZ-95": "AssaultRifle,AssaultCarbine", // QBZ-95 5.8x42mm
+        "QBZ-97": "AssaultRifle,AssaultCarbine", // QBZ-97 5.8x42mm
+        "RO635": "Smg", // RO635 9x19mm
+        "S-SASS": "MarksmanRifle", // S-SASS 7.62x51mm
+        "ST AR15": "AssaultCarbine,AssaultRifle", // ST AR15 5.56x45mm
+        "suomiG": "Smg", // Suomi KP/-31 9x19mm
+        "super shorty": "Shotgun", // Super Shorty 12ga
+        "Type-56 MOD1": "AssaultRifle,AssaultCarbine", // Type-56 MOD1 7.62x39mm
+        "Type-56 MOD2": "AssaultRifle,AssaultCarbine", // Type-56 MOD2 7.62x39mm
+        "Type-56 MOD3": "AssaultRifle,AssaultCarbine", // Type-56 MOD3 7.62x39mm
+        "ump40": "Smg", // UMP40 .40 S&W
+        "ump9": "Smg" // UMP9 9x19mm
+    },
+    // the weapons will be added when any other weapons are in the list
+    // can also be a category
+    "CanBeUsedAs": {
+        "5c46fbd72e2216398b5a8c9c": [ // SVDS 7.62x54R sniper rifle
+            "6657bc8faeddd6b0a9b40224",
+            "6657bd4d3a4d6e7c33fd2fdc"
+        ],
+        "5447a9cd4bdc2dbd208b4567": [
+            "M4A1"
+        ]
+    },
+    // if any two weapons' short names are the same or differs only by these words, they will be considered the same
+    "CanBeUsedAsShortNameWhitelist": [
+        ".300 Blackout",
+        ".300",
+        "FDE",
+        "furry",
+        "black",
+        ".277",
+        "red",
+        "gold",
+        "multi",
+        "caliber"
+    ],
+    // any weapon with these short names will be skipped from the previous list
+    "CanBeUsedAsShortNameBlacklist" : [],
+    // for quests that need specific types of weapons
+    "CustomCategories": [
+        {
+            "name": "AKM", // Identifier
+            "ids": [], // if a weapon is in this list, it will be considered as this category no matter what
+            "whiteListedKeywords": [
+                "\\b(AKM|AK-1|VPO|Draco)\\w*"
+            ], //  these will be searched in the weapon name and description
+            "blackListedKeywords": [], //  weapons with name/description containing these will be removed
+            "allowedCalibres": [
+                "Caliber762x39"
+            ], //  weapons with only these will be added,
+            "alsoCheckDescription": false //  if true, the description will also be checked
+        },
+        {
+            "name": "AKS-74U", // Identifier
+            "ids": [], // if a weapon is in this list, it will be considered as this category no matter what
+            "whiteListedKeywords": [
+                "\\b(AKS-74U|SAG AK-545)\\w*"
+            ], //  these will be searched in the weapon name and description
+            "blackListedKeywords": [], //  weapons with name/description containing these will be removed
+            "allowedCalibres": [], //  weapons with only these will be added,
+            "alsoCheckDescription": false //  if true, the description will also be checked
+        },
+        {
+            "name": "12ga", // Identifier
+            "ids": [
+                "61f7c9e189e6fb1a5e3ea78d", // MP-18 7.62x54R single-shot rifle
+                "weapon_striker_12",
+                "weapon_JAK12_12ga_MASSIVESOFT",
+                "weapon_AA12_12ga_MASSIVESOFT", // JAK12 alternative, for those who renamed it.
+                "sh-SaigaSKS"
+            ], // if a weapon is in this list, it will be considered as this category no matter what
+            "whiteListedKeywords": [], //  these will be searched in the weapon name and description
+            "blackListedKeywords": [], //  weapons with name/description containing these will be removed
+            "allowedCalibres": [
+                "Caliber12g"
+            ], //  weapons with only these will be added,
+            "alsoCheckDescription": false //  if true, the description will also be checked
+        },
+        {
+            "name": "AK",
+            "ids": [],
+            "whiteListedKeywords": [
+                "\\b(AK|Draco)\\w*"
+            ],
+            "blackListedKeywords": [],
+            "allowedCalibres": [],
+            "alsoCheckDescription": false
+        },
+        {
+            "name": "AK-74",
+            "ids": [],
+            "whiteListedKeywords": [
+                "\\b(AK-74|AKS-74|SAG AK-545|Saiga SGL31|Saiga MK Ver. 030)\\w*"
+            ],
+            "blackListedKeywords": [
+                "\\b(AKS-74U)\\w*"
+            ],
+            "allowedCalibres": [],
+            "alsoCheckDescription": false
+        },
+        {
+            "name": "AR-15",
+            "ids": [],
+            "whiteListedKeywords": [
+                "\\b(AR-15|M4A1|ATL-15)\\w*"
+            ],
+            "blackListedKeywords": [],
+            "allowedCalibres": [],
+            "alsoCheckDescription": true
+        },
+        {
+            "name": "M4A1",
+            "ids": [],
+            "whiteListedKeywords": [
+                "\\b(M4A1|M416|MCX)\\w*"
+            ],
+            "blackListedKeywords": [],
+            "allowedCalibres": [],
+            "alsoCheckDescription": false
+        },
+        {
+            "name": "explosive",
+            "ids": [],
+            "whiteListedKeywords": [
+                "\\b(grenade)\\w*"
+            ],
+            "blackListedKeywords": [],
+            "allowedCalibres": [],
+            "alsoCheckDescription": false
+        }
+    ]
+}

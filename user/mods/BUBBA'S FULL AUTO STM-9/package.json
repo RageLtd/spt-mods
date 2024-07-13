@@ -1,8 +1,0 @@
-{
-  "name": "BUBBA'S FULL AUTO STM-9",
-  "version": "1.2.0",
-  "main": "src/mod.js",
-  "license": "MIT",
-  "author": "bubbagmobile",
-  "sptVersion": "~3.9"
-}

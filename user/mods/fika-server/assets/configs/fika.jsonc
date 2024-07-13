@@ -12,14 +12,12 @@
             "optional": []
         },
         "useInertia": true,
-        "sharedQuestProgression": false
+        "sharedQuestProgression": true
     },
     "server": {
         "giftedItemsLoseFIR": true,
         "launcherListAllProfiles": true,
-        "sessionTimeout": 5,
-        "showDevProfile": true,
-        "showNonStandardProfile": true
+        "sessionTimeout": 5
     },
     "natPunchServer": {
         "enable": false,

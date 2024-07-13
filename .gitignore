@@ -1,3 +1,6 @@
+.idea
+.run
+
 # Data directories
 SPT_Data/Launcher
 SPT_Data/Launcher/Image_Cache
@@ -44,7 +47,8 @@ user/sptsettings
 
 # QuestingBots has its own logs that we don't need to sync
 user/mods/DanW-SPTQuestingBots/log
-
+user/**/mods/**/logs
+**/log.log
 # Compiled JS files and their maps
 *.js
 *.js.map

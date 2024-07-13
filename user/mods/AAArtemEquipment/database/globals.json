@@ -1,0 +1,218 @@
+{
+	"ItemPresets": {
+
+		"668bc5cd834c88e06b08b6ab": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "6673b1ac5cae0610f1079d7a",
+		"_id": "668bc5cd834c88e06b08b6ab",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6ac",
+				"_tpl": "6673b1ac5cae0610f1079d7a"
+			},
+			{
+				"_id": "41c27fdfb5c75afc5c1c3c19",
+				"_tpl": "6575f24ff6a13a7b7100b09e",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "Soft_armor_front",
+				"upd": {}
+			},
+			{
+				"_id": "4fc0916a60f2f2dfc5def85a",
+				"_tpl": "6575f25ada698a4e98067836",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "Soft_armor_back",
+				"upd": {}
+			},
+			{
+				"_id": "b5e9ddf4456fc5f61ed4919d",
+				"_tpl": "6575f2649cfdfe416f0399b8",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "Soft_armor_left",
+				"upd": {}
+			},
+			{
+				"_id": "bea8804126971ff4e823deae",
+				"_tpl": "6575f26d9c7cad336508e480",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "soft_armor_right",
+				"upd": {}
+			},
+			{
+				"_id": "48ac4163906500ea666fb2c8",
+				"_tpl": "6557458f83942d705f0c4962",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "Left_side_plate",
+				"upd": {}
+			},
+			{
+				"_id": "48b0f273f3a6875ff29be4d3",
+				"_tpl": "6557458f83942d705f0c4962",
+				"parentId": "668bc5cd834c88e06b08b6ac",
+				"slotId": "Right_side_plate",
+				"upd": {}
+			}
+		],
+		"_name": "Crye Precision CPC plate carrier (Multicam)",
+		"_parent": "668bc5cd834c88e06b08b6ac",
+		"_type": "Preset"
+	},
+		"668bc5cd834c88e06b08b6ad": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "66326bfd46817c660d015126",
+		"_id": "668bc5cd834c88e06b08b6ad",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6ae",
+				"_tpl": "66326bfd46817c660d015126"
+			},
+			{
+				"_id": "6305b9e5418beae5ec491838",
+				"_tpl": "6551fec55d0cf82e51014288",
+				"parentId": "668bc5cd834c88e06b08b6ae",
+				"slotId": "Helmet_top",
+				"upd": {}
+			},
+			{
+				"_id": "f5baeb4f942fb0ab1894d132",
+				"_tpl": "655200ba0ef76cf7be09d528",
+				"parentId": "668bc5cd834c88e06b08b6ae",
+				"slotId": "Helmet_back",
+				"upd": {}
+			}
+		],
+		"_name": "Ops-Core FAST Carbon High Cut Helmet (Dark Blue)",
+		"_parent": "668bc5cd834c88e06b08b6ae",
+		"_type": "Preset"
+	},
+		"668bc5cd834c88e06b08b6af": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "66326bfd46817c660d015129",
+		"_id": "668bc5cd834c88e06b08b6af",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6b0",
+				"_tpl": "66326bfd46817c660d015129"
+			},
+			{
+				"_id": "ea35ffbb9a5c888bd3dad6e4",
+				"_tpl": "6551fec55d0cf82e51014288",
+				"parentId": "668bc5cd834c88e06b08b6b0",
+				"slotId": "Helmet_top",
+				"upd": {}
+			},
+			{
+				"_id": "cd8cf8db8a6572b02eb24065",
+				"_tpl": "655200ba0ef76cf7be09d528",
+				"parentId": "668bc5cd834c88e06b08b6b0",
+				"slotId": "Helmet_back",
+				"upd": {}
+			}
+		],
+		"_name": "DLP Tactical Extreme Helmet",
+		"_parent": "668bc5cd834c88e06b08b6b0",
+		"_type": "Preset"
+	},
+		"668bc5cd834c88e06b08b6b3": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "66326bfd46817c660d015133",
+		"_id": "668bc5cd834c88e06b08b6b3",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6b4",
+				"_tpl": "66326bfd46817c660d015133"
+			},
+			{
+				"_id": "253ab50c64cc87fe99066b8d",
+				"_tpl": "6551fec55d0cf82e51014288",
+				"parentId": "668bc5cd834c88e06b08b6b4",
+				"slotId": "Helmet_top",
+				"upd": {}
+			},
+			{
+				"_id": "894f4cb6fe97c893cde92df8",
+				"_tpl": "655200ba0ef76cf7be09d528",
+				"parentId": "668bc5cd834c88e06b08b6b4",
+				"slotId": "Helmet_back",
+				"upd": {}
+			}
+		],
+		"_name": "Tactical 'Kasda' BALLISTIC SL (Olive)",
+		"_parent": "668bc5cd834c88e06b08b6b4",
+		"_type": "Preset"
+	},
+		"668bc5cd834c88e06b08b6b5": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "66326bfd46817c660d01512b",
+		"_id": "668bc5cd834c88e06b08b6b5",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6b6",
+				"_tpl": "66326bfd46817c660d01512b"
+			},
+			{
+				"_id": "53d8c0e700da8021372ea546",
+				"_tpl": "657fa009d4caf976440afe3a",
+				"parentId": "668bc5cd834c88e06b08b6b6",
+				"slotId": "Helmet_top",
+				"upd": {}
+			},
+			{
+				"_id": "b673b22698de96f6154f31dc",
+				"_tpl": "657fa04ac6679fefb3051e24",
+				"parentId": "668bc5cd834c88e06b08b6b6",
+				"slotId": "Helmet_back",
+				"upd": {}
+			},
+			{
+				"_id": "4e27a76507fdbcda4185b7d2",
+				"_tpl": "657fa07387e11c61f70bface",
+				"parentId": "668bc5cd834c88e06b08b6b6",
+				"slotId": "Helmet_ears",
+				"upd": {}
+			}
+		],
+		"_name": "Ops-Core FAST Carbon Low Cut Helmet (Roze)",
+		"_parent": "668bc5cd834c88e06b08b6b6",
+		"_type": "Preset"
+	},
+		"668bc5cd834c88e06b08b6b1": {
+		"_changeWeaponName": false,
+		"_encyclopedia": "66326bfd46817c660d01512a",
+		"_id": "668bc5cd834c88e06b08b6b1",
+		"_items": [
+			{
+				"_id": "668bc5cd834c88e06b08b6b2",
+				"_tpl": "66326bfd46817c660d01512a"
+			},
+			{
+				"_id": "b793250e8177a57ccc0720ab",
+				"_tpl": "6551fec55d0cf82e51014288",
+				"parentId": "668bc5cd834c88e06b08b6b2",
+				"slotId": "Helmet_top",
+				"upd": {}
+			},
+			{
+				"_id": "0ef2686211f4a5b7fc372963",
+				"_tpl": "655200ba0ef76cf7be09d528",
+				"parentId": "668bc5cd834c88e06b08b6b2",
+				"slotId": "Helmet_back",
+				"upd": {}
+			}
+		],
+		"_name": "Ops-Core FAST Carbon High Cut Helmet (Tan)",
+		"_parent": "668bc5cd834c88e06b08b6b2",
+		"_type": "Preset"
+	}
+},
+	"config": {
+		"Mastering": [],
+		"Health": {
+			"Effects": {
+				"Stimulator": {
+					"Buffs": {}
+				}
+			}
+		}
+	}
+}

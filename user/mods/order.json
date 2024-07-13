@@ -1,10 +1,12 @@
 {
   "order": [
-    "Carl-QHB",
-    "fika-server",
     "Virtual's Custom Quest Loader",
-    "refringe-customweight",
+    "AAAArtemTrader",
     "aMoxoPixel-Painter",
+    "fika-server",
+    "acidphantasm-390temporaryfixes",
+    "Carl-QHB",
+    "AAArtemEquipment",
     "acidphantasm-bosseshavelegamedals",
     "acidphantasm-brightlasers",
     "acidphantasm-refsptfriendlyquests",
@@ -19,7 +21,6 @@
     "mattdokn-fpsunlocker",
     "MoxoPixel-BlackCore",
     "MoxoPixel-TacticalGearComponent",
-    "Nootropix-SpeedLoader",
     "refringe-customraidtimes",
     "refringe-easyammunition",
     "refringe-openextracts",
@@ -30,7 +31,12 @@
     "tomanw-realisticpmcweapons",
     "tyfon-uifixes",
     "zSolarint-SAIN-ServerMod",
-    "acidphantasm-390temporaryfixes",
-    "DrakiaXYZ-LiveFleaPrices"
+    "DrakiaXYZ-LiveFleaPrices",
+    "Arblackout 300blk",
+    "hooshu-sptspeedload",
+    "WTT-Armory-Arisaka",
+    "Sheepy-SimpleSeasonSelector",
+    "refringe-customweight",
+    "zz_guiltyman-addmissingquestweaponrequirements"
   ]
 }

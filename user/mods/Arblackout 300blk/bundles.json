@@ -1,0 +1,80 @@
+{
+	"manifest": [
+		{
+			"key": "assets/content/weapons/arblk/textures/client_assets.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/weapons/arblk/client_assets.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/content/weapons/arblk/textures/client_assets.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/weapons/arblk/weapon_colt_m4a1_556x45_container.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/content/weapons/arblk/textures/client_assets.bundle",
+				"assets/systems/effects/muzzleflash/muzzleflash.bundle",
+				"shaders",
+				"assets/content/weapons/animations/spirit_animations.bundle",
+				"assets/content/weapons/animations/simple_animations.bundle",
+				"assets/content/weapons/weapon_root_anim_fix.bundle",
+				"assets/content/weapons/animations/animations.bundle",
+				"assets/content/weapons/additional_hands/client_assets.bundle",
+				"assets/content/weapons/m4a1/client_assets.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/weapons/tx15/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle",
+				"assets/content/weapons/arblk/client_assets.bundle",
+				"assets/content/audio/banks/m4a1.bundle",
+				"assets/content/audio/weapons/ak74.bundle",
+				"assets/content/audio/weapons/generic",
+				"assets/content/weapons/m4a1/weapon_colt_m4a1_556x45.animatorcontrollerdata.bundle",
+				"assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+				"assets/systems/effects/heathaze/defaultheathaze.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/ammo/patrons/patron_762x35_iop.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/items/ammo/patrons/patron_762x35_silver.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/items/ammo/patrons/patron_762x35_pt.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/items/ammo/patrons/patron_762x35_fancy.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/items/ammo/patrons/patron_762x35_cbj.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"shaders"
+			]
+		}
+	]
+}

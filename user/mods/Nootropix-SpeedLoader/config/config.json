@@ -1,7 +1,0 @@
-{
-   "speedLoader": {
-         "smallest_capacity_magazine_to_speedup": 30,
-         "load_unload_speed": -68,
-         "mag_check": -15
-      }
-}
