@@ -4,5 +4,5 @@
 	"disableFracture": true,
 	"musclePainDuration": 8640,
 	"sameExpRegardlessOfSkillLevel": true,
-	"expMultiplier": 3
+	"expMultiplier": 5
 }
