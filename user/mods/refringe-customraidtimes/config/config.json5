@@ -9,7 +9,7 @@
 
     raidTimes: {
         // Override raid times for all locations, ignoring custom times set for individual locations.
-        overrideAll: true,
+        overrideAll: false,
 
         // Override raid times options. Used for all maps, but only when the above `override_all` is set to `true`.
         //
@@ -24,13 +24,13 @@
         // override: 300, // Five hour raids
         //
         override: [
-            // { minutes: 60, weight: 10 }, // 60 minute raid, used 10 times more often than a weight of 1.
-            // { minutes: 30, weight: { min: 2, max: 5 } }, // 30 minute raid, used 2-5 times more often than a weight of 1.
-            // { minutes: { min: 15, max: 20 }, weight: 1 }, // 15-20 minute raid, used as often as any other weight of 1.
+            { minutes: 60, weight: 10 }, // 60 minute raid, used 10 times more often than a weight of 1.
+            { minutes: 30, weight: { min: 2, max: 5 } }, // 30 minute raid, used 2-5 times more often than a weight of 1.
+            { minutes: { min: 15, max: 20 }, weight: 1 }, // 15-20 minute raid, used as often as any other weight of 1.
 
             // If all you want is a single long raid time, you can uncomment the following line and comment out or
             // delete the three other lines above.
-            { minutes: 90, weight: 1 }, // 6 hour raid (360 minutes).
+            // { minutes: 360, weight: 1 }, // 6 hour raid (360 minutes).
         ],
 
         // Custom raid times for specific locations. Used when `override_all` is set to `false`.

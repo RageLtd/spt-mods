@@ -64,14 +64,14 @@
         // CO-OP extracts settings
         cooperation: {
             // Enable CO-OP extracts via payment
-            convertToPayment: false,
+            convertToPayment: true,
 
             // Item needed for co-op extract payment. Default is "5696686a4bdc2da3298b456a" (Dollars).
             // Hint: Use https://db.sp-tarkov.com to find the item ID.
-            item: "5696686a4bdc2da3298b456a",
+            item: "5449016a4bdc2d6f028b456f",
 
             // Number of items required for payment. Default is 75 dollars.
-            number: 75,
+            number: 7500,
         },
 
         // Vehicle extracts settings

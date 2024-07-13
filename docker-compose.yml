@@ -2,7 +2,7 @@ services:
   fika:
     build:
       context: Docker
-      dockerfile: ./Dockerfile
+      dockerfile: ./Docker/Dockerfile
     volumes:
       - .:/opt/server:Z
     ports:

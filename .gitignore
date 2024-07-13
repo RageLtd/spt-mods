@@ -2,28 +2,7 @@
 .run
 
 # Data directories
-SPT_Data/Launcher
-SPT_Data/Launcher/Image_Cache
-SPT_Data/Launcher/Locales
-SPT_Data/Launcher/Patches
-SPT_Data/Server/database/images
-SPT_Data/Server/checks.dat
-SPT_Data/Server/database/bots
-SPT_Data/Server/database/hideout
-SPT_Data/Server/database/locales/global
-SPT_Data/Server/database/locales/menu
-SPT_Data/Server/database/locales/*.json
-SPT_Data/Server/database/locales/server/*
-SPT_Data/Server/database/locations
-SPT_Data/Server/database/loot
-SPT_Data/Server/database/match
-SPT_Data/Server/database/templates/*
-SPT_Data/Server/database/*.json
-SPT_Data/Server/database/*.dat
-SPT_Data/Server/database/traders
-SPT_Data/Server/configs
-SPT_Data/Server/images
-SPT_Data/Server/@pnpm
+SPT_Data
 EscapeFromTarkov_Data
 Logs
 MonoBleedingEdge
