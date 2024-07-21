@@ -2,6 +2,11 @@
 .run
 .zed
 
+# Docker stuff
+.dockerignore
+docker-compose.yml
+Docker
+
 # Data directories
 SPT_Data
 EscapeFromTarkov_Data
