@@ -101,5 +101,8 @@
       "CanBegForLife": true
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.0,
+    "VisionSpeedMultiplier": 1.0
+  }
 }

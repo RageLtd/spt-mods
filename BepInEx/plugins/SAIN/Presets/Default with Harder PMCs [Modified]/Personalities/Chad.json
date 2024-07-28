@@ -71,5 +71,8 @@
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.0,
+    "VisionSpeedMultiplier": 1.0
+  }
 }

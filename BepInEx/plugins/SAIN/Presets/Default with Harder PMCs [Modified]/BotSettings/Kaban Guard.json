@@ -40,12 +40,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 3.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.7
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -127,12 +126,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 3.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.7
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -214,12 +212,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 3.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.7
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -301,12 +298,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 3.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.7
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
